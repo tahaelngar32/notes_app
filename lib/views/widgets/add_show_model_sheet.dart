@@ -5,6 +5,14 @@ class AddNoteBottomSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      width: double.infinity,
+      decoration: BoxDecoration(),
+    child: const Column(
+      children: [
+        Text("hello world"),
+      ],
+    ),
+    );
   }
 }
